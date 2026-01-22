@@ -1,9 +1,10 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
+import tapetesAmigurumi from '../assets/images/tapetes-amigurumi.png';
 
 const OfferCard: React.FC = () => {
   const handleCTAClick = () => {
-    window.open('https://heloisa-artesa.pay.yampi.com.br/r/62WQPCIPGK', '_blank');
+    window.open('https://pay.hotmart.com/Y103682962N?checkoutMode=10', '_blank');
   };
 
   return (
@@ -15,14 +16,14 @@ const OfferCard: React.FC = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="bg-white p-6 rounded-2xl shadow-xl border border-gray-200 max-w-sm">
               <img
-                src="/kpop-offer.png"
-                alt="K-pop Amigurumis"
+                src={tapetesAmigurumi}
+                alt="Tapetes Amigurumis"
                 className="w-full h-auto rounded-lg shadow-md"
                 loading="lazy"
               />
               <div className="text-center mt-4">
-                <h4 className="text-lg font-bold text-gray-800">K-POP AMIGURUMIS</h4>
-                <p className="text-sm text-gray-600">Crie Bonecos Adoráveis em Crochê</p>
+                <h4 className="text-lg font-bold text-gray-800">TAPETES AMIGURUMIS</h4>
+                <p className="text-sm text-gray-600">Crie Adoráveis Tapetes de Crochê</p>
               </div>
             </div>
           </div>
@@ -42,7 +43,7 @@ const OfferCard: React.FC = () => {
             {/* Preço Original Riscado */}
             <div className="text-center">
               <span className="text-2xl text-gray-400 line-through font-medium">
-                De R$ 27,00
+                Da $9.90
               </span>
             </div>
 
@@ -75,7 +76,7 @@ const OfferCard: React.FC = () => {
             </style>
             <div className="text-center">
               <div id="big-price">
-                R$ 13,50
+                $4.95
               </div>
             </div>
 
@@ -91,7 +92,7 @@ const OfferCard: React.FC = () => {
               onClick={handleCTAClick}
               className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-xl md:text-2xl py-6 px-8 rounded-xl shadow-2xl transform hover:scale-105 transition-all duration-300 w-full max-w-2xl mx-auto uppercase"
             >
-              EU QUERO MEU EBOOK
+              QUERO MEU EBOOK
             </button>
 
             {/* Ícones de Confiança */}
@@ -111,7 +112,7 @@ const OfferCard: React.FC = () => {
         {/* Bloco de Valor Amarelo */}
         <div className="bg-yellow-50 border-2 border-yellow-200 p-6 rounded-2xl">
           <p className="text-base md:text-lg text-gray-800 font-medium text-center leading-relaxed">
-            🎁 Você receberá o pacote completo: Receitas de K-pop Amigurumis + Videoaulas Passo a Passo + Lista de Fornecedores + Técnicas de Crochê + 4 Bônus Exclusivos + Acesso Vitalício
+            🎁 Você receberá o pacote completo: Receitas de Tapetes Amigurumis + Vídeo Aulas Passo a Passo + Lista de Fornecedores + Técnicas de Crochê + 4 Bônus Exclusivos + Acesso Vitalício
           </p>
         </div>
       </div>

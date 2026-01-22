@@ -5,8 +5,8 @@ const Benefits: React.FC = () => {
   const benefits = [
     {
       icon: Video,
-      title: "📺 Videoaulas Passo a Passo",
-      description: "Aprenda a criar amigurumis de K-pop mesmo sem experiência, com explicações fáceis e didáticas."
+      title: "📺 Vídeo Aulas Passo a Passo",
+      description: "Aprenda a criar tapetes amigurumis mesmo sem experiência, com explicações fáceis e didáticas."
     },
     {
       icon: Smartphone,
@@ -16,7 +16,7 @@ const Benefits: React.FC = () => {
     {
       icon: Wrench,
       title: "🧶 Materiais Acessíveis",
-      description: "Use materiais simples e acessíveis — linha, agulha e enchimento."
+      description: "Use materiais simples e acessíveis — fio, agulha e enchimento."
     },
     {
       icon: Users,
@@ -30,8 +30,8 @@ const Benefits: React.FC = () => {
     },
     {
       icon: Award,
-      title: "🧸 Técnicas de Crochê",
-      description: "Aprenda a criar bonecos de K-pop com detalhes adoráveis e técnicas profissionais."
+      title: "🧶 Técnicas de Crochê",
+      description: "Aprenda a criar tapetes amigurumis com detalhes adoráveis e técnicas profissionais."
     }
   ];
 
@@ -39,7 +39,7 @@ const Benefits: React.FC = () => {
     <section className="py-12 px-4 bg-gray-50">
       <div className="container mx-auto max-w-6xl">
         <h3 className="text-3xl md:text-4xl font-black text-center text-gray-800 mb-10 leading-tight">
-          Resumo de Tudo o Que Você Vai Receber
+          Resumo de Tudo que Você Vai Receber
         </h3>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

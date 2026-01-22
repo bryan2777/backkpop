@@ -3,7 +3,7 @@ import { Shield } from 'lucide-react';
 
 const FinalUrgency: React.FC = () => {
   const handleFinalCTAClick = () => {
-    window.open('https://heloisa-artesa.pay.yampi.com.br/r/62WQPCIPGK', '_blank');
+    window.open('https://pay.hotmart.com/Y103682962N?checkoutMode=10', '_blank');
   };
 
   return (
@@ -30,12 +30,12 @@ const FinalUrgency: React.FC = () => {
               onClick={handleFinalCTAClick}
               className="bg-green-600 hover:bg-green-700 text-white font-bold text-xl md:text-2xl py-6 px-10 rounded-lg shadow-2xl transform hover:scale-105 transition-all duration-300 w-full max-w-2xl mx-auto mb-6"
             >
-              GARANTIR ACESSO IMEDIATO POR R$ 13,50
+              GARANTIR ACESSO IMEDIATO POR $4.95
             </button>
 
             {/* Texto de Apoio */}
             <p className="text-base text-gray-600 text-center">
-              👉 Clique no botão acima e aproveite sua última chance de aprender a criar bonecos de K-pop amigurumis hoje mesmo!
+              👉 Clique no botão acima e aproveite sua última chance de aprender a criar tapetes amigurumis hoje mesmo!
             </p>
           </div>
         </div>

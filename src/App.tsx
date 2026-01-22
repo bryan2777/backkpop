@@ -47,7 +47,7 @@ function App() {
       <footer className="bg-gray-800 text-white py-8 px-4 text-center">
         <div className="container mx-auto max-w-4xl mt-6">
           <p className="text-xs opacity-80">
-            © 2025 K-pop Amigurumis - Todos os direitos reservados
+            © 2025 Tapetes Amigurumis - Todos os direitos reservados
           </p>
           <p className="text-xs opacity-80 mt-2">
             Instrutora: Heloísa Santos
